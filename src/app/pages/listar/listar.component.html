@@ -1,0 +1,9 @@
+<p>listar works!</p>
+<ul>
+    <li *ngFor="let tarea of listaTareas | async">
+        <a (click)="goEditar(tarea)">{{tarea.name}} </a>
+        {{ tarea.nota }} - {{ tarea.fecha }} - {{ tarea.etiquetas }}
+        
+    </li>
+</ul>
+

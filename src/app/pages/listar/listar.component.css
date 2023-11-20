@@ -1,0 +1,42 @@
+/* Add this to your global styles or the specific component stylesheet */
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  li::before {
+    content: '\2022'; /* Bullet point */
+    color: #4caf50; /* Bullet point color */
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  li span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Adjust the font and color based on your design preferences */
+  
